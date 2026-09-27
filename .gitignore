@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+out/
+.next/
+coverage/
+*.tsbuildinfo
+*.log
+
+# Local hosting/runtime state; keep .openai/hosting.json versioned
+.sites-runtime/
+.wrangler/
+.vercel/
